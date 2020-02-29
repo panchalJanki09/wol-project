@@ -1,0 +1,67 @@
+*{
+margin:0;
+padding:0;
+font-family:Times new Roman;
+}
+body{
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.header{
+	height:130px;
+	background-color:wheat;
+}
+.header-logo img{
+	margin-top:25px;
+	margin-left:30px;
+}
+.header-list select{
+	background-color:wheat;
+}
+ul{
+	float:right;
+	list-style:none;
+	margin-top:-20px;
+	margin-right:20px;
+}
+ ul li{
+	position:relative;
+display:inline-block;
+margin:10px;
+margin-top:0px;
+}
+ul li a{
+	text-decoration:none;
+	color:#000;
+	padding:10px 15px;
+	border:2px solid #000;
+	transition:0.6s ease;
+}
+ul li a:hover{
+	font-weight:1000px;
+	border-color:white;
+	color:black;
+}
+.copy-container{
+	background-image:url(F:\\yamifood\\images\\slider-01.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:500px;
+}
+.copy-container h1{
+	position:absolute;
+	margin-top:200px;
+	margin-left:400px;
+	font-size:43px;
+	float:left;
+	color:white;
+}
+.copy-container p{
+	position:absolute;
+	margin-top:300px;
+	margin-left:400px;
+	font-size:20px;
+	float:left;
+	color:white;
+}
